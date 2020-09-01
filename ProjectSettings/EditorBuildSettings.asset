@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Connect.unity
+    guid: 45abcf4e3077824479b96d38dcb74110
+  - enabled: 0
+    path: Assets/Scenes/WaitRoom.unity
+    guid: 030167b79ba7e3d4e98c206132293740
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: f12ad86b9c06a8d46932317ec8d2fc80
+  - enabled: 0
+    path: Assets/Scenes/Dialog.unity
+    guid: ad98f98721a3a384eb8ac320886465b8
+  m_configObjects: {}
