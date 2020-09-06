@@ -1,5 +1,6 @@
 # ProjectSpWar
  대학교 졸업과제(안드로이드 4인 네트워크 독립형 슈팅게임)(Unity Ver 2018.4.7f1)
+ - untiy HLAPI(high level scripting API)을 이용한 네트워킹
  
  최대 4인까지 접속가능.
  로컬 네트워킹(와이파이) 아이피 접근을 통해서 게임진행
