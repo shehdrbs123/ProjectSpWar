@@ -1,6 +1,8 @@
 # ProjectSpWar
- 대학교 졸업과제(안드로이드 4인 네트워크 독립형 슈팅게임)(Unity Ver 2018.4.7f1)
- - untiy HLAPI(high level scripting API)을 이용한 네트워킹
+ 대학교 졸업과제
+ - 안드로이드 4인 네트워크 독립형 슈팅게임
+ - Unity Ver 2018.4.7f1
+ - untiy HLAPI(high level scripting API)을 이용한 네트워킹(deprecated됨)
  
  최대 4인까지 접속가능.
  로컬 네트워킹(와이파이) 아이피 접근을 통해서 게임진행
@@ -16,4 +18,6 @@
  미구현 내용
   - 차원간 서포트 시스템(다른 유저에게 스킬 써주기)
   - 스킬/ 스킬 UI
- 
+  - 게임 스테이징 구현
+  
+ 게임 조작법 UI 설명서 
