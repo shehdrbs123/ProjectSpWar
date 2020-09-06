@@ -15,9 +15,6 @@ public class LobbyPlayer : NetworkLobbyPlayer {
 	[HideInInspector]
 	[SyncVar(hook="SyncOnReady")]
 	public string ready=null;
-	// Use this for initialization
-	// Update is called once per frame
-	void Awake(){}
 
 	public override void OnClientEnterLobby(){
 		base.OnClientEnterLobby ();

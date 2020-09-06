@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class CommonButtonScript : MonoBehaviour {
 
-	public void switchScene(string name)
+
+    void Start()
+    {
+        //Screen.SetResolution(1440, 2560, false);
+        //Screen.SetResolution(Screen.height * 9/16, Screen.height, false);
+    }
+    public void switchScene(string name)
 	{
 		SceneManager.LoadScene (name);
 	}

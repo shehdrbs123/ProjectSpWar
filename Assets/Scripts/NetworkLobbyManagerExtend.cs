@@ -54,7 +54,7 @@ public class NetworkLobbyManagerExtend : NetworkLobbyManager{
 				ui.UIChangeTo ('m');
 			}
 		}else{
-			DefaultSetting ();//client에는 무시됨.(client에서 findGameObject를 할 수 없음)
+			DefaultSetting ();
 		}
 	}
 		
@@ -68,10 +68,10 @@ public class NetworkLobbyManagerExtend : NetworkLobbyManager{
 				ui.setupWaitroom();
 			}
 		}else{
-			DefaultSetting ();//client에는 무시됨.(client에서 findGameObject를 할 수 없음)
+            DefaultSetting();
 		}
 	}
-	public void DefaultSetting(){//host setting;
+	public void DefaultSetting(){
 		GameObject[] players = GameObject.FindGameObjectsWithTag ("Player");
 		GameObject[] buttons = GameObject.FindGameObjectsWithTag ("Button");
 		GamePlayer gamePlayer;
